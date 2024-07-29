@@ -6,9 +6,9 @@
 body {
     height: 100vh;
     background: #5c5470;
-    display: flex;
     align-items: center;
     justify-content: center;
+    display: grid;
 }
 
 .styled-title {
@@ -20,7 +20,7 @@ body {
     letter-spacing: 2px; /* Espaçamento entre as letras */
     margin-top: 20px; /* Margem superior */
     margin-bottom: 20px; /* Margem inferior */
-    padding: 10px; /* Espaçamento interno */
+    padding: 20px; /* Espaçamento interno */
     background-color: #f0f0f0; /* Cor de fundo */
     border: 2px solid #ccc; /* Borda */
     border-radius: 10px; /* Bordas arredondadas */
@@ -68,7 +68,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: relative;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
