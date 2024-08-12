@@ -16,11 +16,15 @@ body {
     font-size: 36px; /* Tamanho da fonte */
     color: #333; /* Cor do texto */
     text-align: center; /* Alinhamento centralizado */
+    align-content: center;
+    justify-content: center;
+    display: grid;
     text-transform: uppercase; /* Transformação do texto para maiúsculas */
     letter-spacing: 2px; /* Espaçamento entre as letras */
-    margin-top: 20px; /* Margem superior */
+    margin-top: 50px; /* Margem superior */
     margin-bottom: 20px; /* Margem inferior */
-    padding: 20px; /* Espaçamento interno */
+    padding: 30px; /* Espaçamento interno */
+    width: 550px;
     background-color: #f0f0f0; /* Cor de fundo */
     border: 2px solid #ccc; /* Borda */
     border-radius: 10px; /* Bordas arredondadas */
@@ -60,7 +64,13 @@ body {
 
 .relogio span.tempo {
     font-size: 10px;
-    
+}
+
+main {
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 100px;
 }
 
 footer {
